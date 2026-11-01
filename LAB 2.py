@@ -1,6 +1,5 @@
-#Lab 2#
-
 #1#
+
 # num = int(input("Enter a number: ")) 
 # if num % 5 == 0:
 #     print("Hi")
@@ -8,6 +7,7 @@
 #     print("Bye")
     
 #2#
+
 # x = float(input("Enter the First parallel side: "))
 # y = float(input("Enter second parallel side: "))
 # h = float(input("Enter height: "))
@@ -16,6 +16,7 @@
 
 
 #3#
+
 # weight = float(input("Enter weight in kg: "))
 # height = float(input("Enter height in meters: "))
 # bmi = weight / (height ** 2)
@@ -32,6 +33,7 @@
 #     print("Clinically obese")
     
 #4#
+
 # ch = input("Enter an alphabet: ")
 # if ch in "aeiouAEIOU":
 #     print("Vowel")
@@ -39,12 +41,14 @@
 #     print("Consonant")
     
 #5#
+
 # initial = 2.19e14
 # final = 4.68e14
 # growth = ((final - initial) / initial) * 100
 # print("Percentage of growth =", round(growth), "%")
 
 #6#
+
 # months = int(input("Enter number of months: "))
 # years = months // 12
 # remaining_months = months % 12
@@ -52,9 +56,9 @@
 # print("Months =", remaining_months)
 
 #7#
+
 # color = input("Enter color (Blue/Red): ")
 # mode = input("Enter mode (Steady/Flashing): ")
-
 # if color == "Blue" and mode == "Steady":
 #     print("Clear view")
 # elif color == "Blue" and mode == "Flashing":
@@ -67,6 +71,7 @@
 #     print("Invalid input")
     
 #8#
+
 # cost = float(input("Enter total cost: "))
 # revenue = float(input("Enter total revenue: "))
 # if cost == revenue:
@@ -77,6 +82,7 @@
 #     print("Loss =", cost - revenue)
     
 #9#
+
 # widgets = int(input("Enter number of widgets: "))
 # if widgets >= 100:
 #     cost = widgets * 0.20
@@ -85,6 +91,7 @@
 # print("Total cost = $", format(cost, ".2f"))
 
 #10#
+
 # pounds = float(input("Enter number of pounds: "))
 # cash = float(input("Enter cash tendered: "))
 # cost = pounds * 2.50
@@ -96,6 +103,7 @@
 #     print("You owe $", format(owe, ".2f"), "more.")
     
 #11#
+
 # a = int(input("Enter first number: "))
 # b = int(input("Enter second number: "))
 # c = int(input("Enter third number: "))
@@ -112,6 +120,7 @@
 # print("Largest =", largest)
 
 #12#
+
 # basic = float(input("Enter basic salary: "))
 # hra = 0.20 * basic
 # ta = 0.05 * basic
@@ -123,6 +132,7 @@
 # print("Gross Salary =", gross_salary)
 
 #13#
+
 # basic = float(input("Enter basic salary: "))
 # hra = 0.20 * basic
 # ta = 0.05 * basic
@@ -142,6 +152,7 @@
 # print("Income Tax =", tax)
 
 #14#
+
 # income = float(input("Enter taxable income: "))
 # if income <= 20000:
 #     tax = 0.02 * income

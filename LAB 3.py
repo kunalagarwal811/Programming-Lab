@@ -1,6 +1,5 @@
-#LAB 3#
-
 #1#
+
 # x1 = int(input("Enter x-coordinate of centre "))
 # y1 = int(input("Enter y-coordinate of centre "))
 # r = int(input("Enter Radius "))
@@ -19,6 +18,7 @@
 #     print("The point lies outside the circle.")
 
 #2#
+
 # # s = float(input("Enter the side of regular pentagon "))
 # # tan_pi_5 = (5 - 2 * (5 ** 0.5)) ** 0.5
 # # area = (5 * (s ** 2)) / (4 * tan_pi_5)
@@ -34,6 +34,7 @@
 #     print("Area of the pentagon =", area)
     
 #3#
+
 # a = float(input("Enter the first angle: "))
 # b = float(input("Enter the second angle: "))
 # c = float(input("Enter the third angle: "))
@@ -48,6 +49,7 @@
 #         print("The triangle is obtuse-angled.")
     
 #4#
+
 # n = int(input("Enter a 4-digit number: "))
 # if n < 1000 or n > 9999:
 #     print("Invalid input: Please enter a 4-digit number.")
@@ -67,6 +69,7 @@
         
 
 #5#
+
 # n = int(input("Enter a 5-digit number: "))
 # if n < 10000 or n > 99999:
 #     print("Invalid input: Please enter a 5-digit number.")
@@ -97,6 +100,7 @@
     
     
 #6#
+
 # a = int(input("Enter a: "))
 # b = int(input("Enter b: "))
 # c = int(input("Enter c: "))
@@ -111,6 +115,7 @@
 
 
 #7#
+
 # n = int(input("Enter a 3-digit number: "))
 # if n < 100 or n > 999:
 #     print("Invalid input: Please enter a 3-digit number.")
@@ -137,6 +142,7 @@
     
 
 #8#
+
 # V = float(input("Enter the initial quantity of water (litres): "))
 # N = int(input("Enter the number of days: "))
 # if V < 0 or N < 0:
@@ -147,6 +153,7 @@
     
     
 #9#    
+
 # a1 = float(input("Enter a1: "))
 # b1 = float(input("Enter b1: "))
 # c1 = float(input("Enter c1: "))

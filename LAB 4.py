@@ -1,6 +1,5 @@
-#Lab 4#
-
 #1#
+
 # salary = float(input("Enter salary: "))
 # years = int(input("Enter year service: "))
 # if years > 5:
@@ -10,6 +9,7 @@
 #     print("No bonus")
     
 #2#
+
 # password = input("Enter password: ")
 # if password == "s3cr3t!P@ssw0rd":
 #     print("Welcome")
@@ -17,6 +17,7 @@
 #     print("Wrong password!")
     
 #3# 
+
 # shape = input("Enter shape: ")
 # if shape == "square":
 #     side = float(input("Enter side: "))
@@ -41,6 +42,7 @@
     
     
 #4#
+
 # hours = int(input("Enter hours "))
 # minutes = int(input("Enter minutes "))
 # minutes = minutes + 15
@@ -56,6 +58,7 @@
      
 
 #5#
+
 # n = float(input("Enter distance in kilometers: "))
 # period = input("Enter period of day (day or night): ")
 # if period == "day":
@@ -79,6 +82,7 @@
     
 
 #6#
+
 # holidays = int(input("Enter number of holidays: "))
 # workdays = 365 - holidays
 # total_play_minutes = (workdays * 63) + (holidays * 127)
@@ -97,6 +101,7 @@
 #     print(f"{hours} hours and {minutes} minutes more for play")
 
 #7#
+
 # budget = float(input("Enter budget in BGN: "))
 # season = input("Enter season (summer or winter): ")
 # destination = ""
@@ -128,12 +133,14 @@
 
 
 #8#
+
 # for number in range(1, 1001):
 #     if number % 10 == 6:
 #         print(number)
 
 
 #9#
+
 # n = int(input("Enter n "))
 # total = 0 
 # for i in range(n):
@@ -143,6 +150,7 @@
 
 
 #10#
+
 # n = int(input("Enter n "))
 # for i in range(1, 21):
 #     print(n, "x", i, "=", n * i)

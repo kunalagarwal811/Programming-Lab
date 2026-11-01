@@ -77,6 +77,44 @@ print(total)'''
 
 #6#
 
+'''count1 = 0
+count2 = 0
+count3 = 0
+count4 = 0
+count5 = 0
+total = 0
+while True:
+    num = int(input("Enter number: "))
+    if num == -1:
+        break
+    if num >= 1 and num <= 2:
+        count1 += 1
+    elif num >= 3 and num <= 4:
+        count2 += 1
+    elif num >= 5 and num <= 6:
+        count3 += 1
+    elif num >= 7 and num <= 8:
+        count4 += 1
+    elif num >= 9 and num <= 10:
+        count5 += 1
+    else:
+        print("Enter number between 1 and 10")
+        continue
+    total += 1
+if total > 0:
+    p1 = count1 * 100 / total
+    p2 = count2 * 100 / total
+    p3 = count3 * 100 / total
+    p4 = count4 * 100 / total
+    p5 = count5 * 100 / total
+    print("1 - 2:", "#" * count1, format(p1, ".2f"), "%")
+    print("3 - 4:", "#" * count2, format(p2, ".2f"), "%")
+    print("5 - 6:", "#" * count3, format(p3, ".2f"), "%")
+    print("7 - 8:", "#" * count4, format(p4, ".2f"), "%")
+    print("9 - 10:", "#" * count5, format(p5, ".2f"), "%")
+else:
+    print("No numbers entered")'''
+
 #7#
 
 '''s = input("Enter a string: ")

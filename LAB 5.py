@@ -1,5 +1,3 @@
-#Lab 5#
-
 #1#
 
 # X=int(input())
